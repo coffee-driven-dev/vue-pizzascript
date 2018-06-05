@@ -1,2 +1,17 @@
+@import "global-variables";
 @import "reset";
 @import "box-model";
+@import "typography";
+
+html,
+body,
+#app,
+#app .layout {
+  min-height: 100vh;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.layout {
+  background-color: #f3f7f9;
+}
